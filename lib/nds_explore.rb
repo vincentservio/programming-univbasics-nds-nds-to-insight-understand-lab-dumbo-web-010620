@@ -9,7 +9,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  db = directors_database
-  db = db[0][:movies].each{|i| puts i [:title]}
+while [:movies] < directors_database.length do 
+ directors_database.each {|value|
+   puts value} 
 
 end
+end
+#[0][:movies].each{|i| puts i [:title]}
